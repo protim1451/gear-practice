@@ -62,3 +62,24 @@ nav li a{
     line-height: 4.3rem;
     color: #3A3A3A;
 }
+
+
+
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    /* header{
+        margin-top: 20px;
+        margin-left: 20px;
+    } */
+    nav h3, nav>ul, .banner{
+        margin-top: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align:center;
+    }
+    
+}
