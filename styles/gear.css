@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: poppins;
+}
+.text-shared{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.btn-primary{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 41px;
+    background: #E02C6D;
+}
+/* Header Section */
+header{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-top: 87px;
+}
+nav > ul{
+    display: flex;
+    margin-top: 96px;
+}
+nav li{
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 181px;
+}
+.banner-img{
+    background: url('../images/Circle\ design.svg'),lightgray -256.697px -123px / 220.317% 154.831% no-repeat;
+    margin-right: 15px;
+    /* margin-top: 181px; */
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.3rem;
+    color: #3A3A3A;
+}
