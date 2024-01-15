@@ -2,6 +2,8 @@
 
 *{
     font-family: poppins;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
 }
 .text-shared{
     font-size: 1rem;
@@ -137,7 +139,7 @@ nav li a{
     font-weight: 700;
     text-align: right;
     margin-top: 50px;
-    margin-right: 140px;
+    /* margin-right: 140px; */
 }
 /* Featute Section */
 .feature-container{
@@ -145,8 +147,8 @@ nav li a{
     justify-content: space-around;
     align-items: center;
     gap: 96px;
-    /* margin-left: 165px; */
-    margin-right: 165px;
+    margin-left: 120px;
+    margin-right: 120px;
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -177,24 +179,23 @@ nav li a{
         flex-direction: column;
     }
     header{
-        margin: 0 auto;
-        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    /* header{
-        margin-top: 20px;
-        margin-left: 20px;
-    } */
+ 
     nav h3, nav>ul, .banner{
         margin-top: 20px;
     }
     .banner, .feature-container{
         flex-direction: column-reverse;
         text-align:center;
+        padding: 20px;
     }
     .sponsor{
         flex-wrap: wrap;
         align-items: center;
         gap: 10px;
+        /* padding: 20px; */
     }
     .collection-item{
         grid-template-columns: 1fr;
@@ -208,7 +209,7 @@ nav li a{
     }
     .feature-container{
         margin: 0px 0px 0px 0px; 
-        padding: 0px 0px 0px 0px;
+        padding: 20px 20px 20px 20px;
     }
     
 }
@@ -220,16 +221,14 @@ nav li a{
         margin: 0 auto;
         padding: 30px;
     }
-    /* header{
-        margin-top: 20px;
-        margin-left: 20px;
-    } */
+   
     nav h3, nav>ul, .banner{
         margin-top: 20px;
     }
-    .banner,  .feature-container{
+    .banner, .feature-container{
         flex-direction: column-reverse;
         text-align:center;
+        padding: 20px;
     }
     .sponsor{
         flex-wrap: wrap;
@@ -238,9 +237,10 @@ nav li a{
     }
     .collection-item{
         grid-template-columns:repeat(2,1fr);
+        /* column-gap: 10px; */
     }
     .collection{
-        margin: 0px 20px;
+        margin: 0px 0px 0px 0px;
     }
     .see-more{
         margin-top: 20px;
