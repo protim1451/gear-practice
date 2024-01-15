@@ -172,7 +172,26 @@ nav li a{
     line-height: 28px; /* 175% */
     margin-bottom: 10px;
 }
-
+/* Footer */
+.foot{
+    background: #0A0826;
+    /* width: 1440px; */
+    height: 239px;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 50px;
+    text-align: center;
+}
+.copyright{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    text-align: center;
+}
 /* Responsive Style */
 @media screen and (max-width: 576px) {
     nav{
